@@ -1,0 +1,12 @@
+# 1. PROJECT SETUP   -- done 
+# 2. PLAYER CREATION       -- done
+# 3. GRAVITY    -- donne 
+# 4. PLAYER MOVEMENT    -- done 
+# 5. Platforms   -- done 
+# 6. "Scroll" the background   -- not done just need to shift x axis of platform class
+7. Win scenario
+8. Image platform
+9. Parallax scroll
+10. Death pits 
+11. Level creation 
+12. Fine-tuning

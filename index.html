@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <link name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css' rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8CpPGn4EQfwBoAaB-NvUgt8IGSiKf_4Oy9w&usqp=CAU">
+    <title>MARIO GAME</title>
+</head>
+<body>
+
+    <section class="canvas">
+        <div id="status"><h1>MARIO GAME RESULT</h1> </div>
+        <canvas></canvas>
+        <div id="demo"></div>
+        <button onclick="getLocation()">LOCATE</button>    
+    </section>
+
+    <section class="svg">
+        <div id="svg">
+            <svg width="1000" height="200" style="border: 2px solid red;">
+                <circle cx="100" cy="50" r="50" style="fill:red; opacity: 0.2"> </circle>
+                <rect
+                class="rect"
+                x='20' y='50' rx="50" ry="40" width="100" height="100">
+                </rect>
+            </svg>
+        </div>
+    </section>
+
+    <!-- FRAG DROP FEATURE -->
+    <section id="dragdrop">
+        <div id="div1" ondrop="drop(event)" ondrag></div>
+    </section>
+
+
+    <div id="btn"><button>BUTTON</button>THIS IS A BUTTON
+        <div id="dropdown-btn">BROPDOWN BUTTON
+            <a href="https://www.google.com/">GOOGLE</a>
+        </div>
+    </div>
+    <code>
+        System.out.println("hello world");<br>
+        x = 10;
+        y=20;
+        z = x + y ;
+
+    </code>
+    <!-- -----------------------------BOOTSTRAP   ---------------- -->
+
+    <div class="carousel">
+        <div class="row">
+            <div class="col-sm-4">a</div>
+            <div class="col-sm-4">a</a></div>
+            <div class="col-sm-4">a</div>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class=" col-sm-4">
+                <h3>Column 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+              </div>
+              <div class="col-sm-4">
+                <h3>Column 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+              </div>
+              <div class=" col-sm-4">
+                <h3>Column 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="text-center container-fluid bg-primary text-white">
+        <div class="row">
+            <h1>CONTAINER FLUID SECTION INSIDE BOOTTSTRAP</h1>
+        </div>
+
+        <h1>TABLE</h1>
+        <table class="table bg-danger table-bordered table-hover">
+            <tr class="bg-success">
+                <th>one</th>
+                <th>two</th>
+                <th>three</th>
+                <th>four</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+        <div class="alert fade show">
+            <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+
+        <button class="btnalert" id="alertbtn" onclick="alert()">ALERT</button>
+
+        <div class="alert alert-secondary fade show" id="showa-alert">
+            <button type="button" class="btn-close float-end" data-bs-dismiss="alert"></button>
+            <strong>Secondary!</strong> Indicates a slightly less important action.<a href="www.google.com/" class="alert-link">SECONDARY ALERT</a>
+          </div>
+          <div class="alert alert-dark">
+            <button type="button" class="btn-close float-end" data-bs-dismiss="alert"></button>
+            <strong>Dark!</strong> Dark grey alert.
+          </div>
+          <div class="alert alert-light fade show ">
+            <button type="button" class="btn-close float-end" data-bs-dismiss="alert"></button>
+            <strong>Light!</strong> Light grey alert.
+          </div>
+          <p id="hide">NON VISIBLE PART</p>
+
+
+          <button class="btn btn-primary" id="loading">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading..
+          </button>
+
+
+          <div class="progress" id="progressbar">
+            <div class="progress-bar bg-danger mx-auto d-bloack" id="pb1">{{per1}}</div>
+            <div class="progress-bar bg-success" id="pb2">10%</div>
+            <div class="progress-bar bg-info" id="pb3">20%</div>
+          </div>
+    </div>
+
+    <div class="morefun">
+        <button data-bs-toggle="modal" data-bs-target="#myModal">OPEN POP UP</button>
+
+        <div class="modal modal-fullscreen fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="header">
+                        THIS IS A POP UP WINDOW
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" id="demo">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">Heading</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Some text lorem ipsum.</p>
+          <p>Some text lorem ipsum.</p>
+          <p>Some text lorem ipsum.</p>
+          <button class="btn btn-secondary" type="button">A Button</button>
+        </div>
+      </div>
+      
+      <div class="container-fluid mt-3">
+        <h3>Offcanvas Sidebar</h3>
+        <p>Offcanvas is similar to modals, except that it is often used as a sidebar.</p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+          Open Offcanvas Sidebar
+        </button>
+      </div>
+
+      <form action="#" method="post">
+        <div class="mb-3">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="NAME">
+                <label for="name">Name</label>
+            </div>
+        </div>
+      </form>
+
+
+
+
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+
+.rect{
+   fill: blue;
+   stroke: 10px red;
+   transition: transform 3s;
+}
+.rect:hover{
+    transform: rotate(360deg);
+}
+
+
+
+#btn{
+    background-color: red;
+    /* color: white; */
+    width: 500px;
+    display: block;
+}
+
+#dropdown-btn{
+    background-color: yellow;
+    display: none;
+}
+
+#btn:hover>#dropdown-btn{
+    display:block;
+    color: grey;
+}
+
+
+#alert-btn:hover .alertbox{
+    display: block;
+}
+
+.alert-success{
+    display: none;
+}
+#hide{
+    display: none;
+}
+
+#progressbar{
+    border-top: 1px solid yellow;
+    transition: rotate(360deg);
+}

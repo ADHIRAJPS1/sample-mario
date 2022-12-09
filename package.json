@@ -1,0 +1,24 @@
+{
+  "name": "sample-mario",
+  "version": "1.0.0",
+  "description": "this is the trial version of mario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADHIRAJPS1/sample-mario.git"
+  },
+  "keywords": [
+    "sample",
+    "mario",
+    "npm"
+  ],
+  "author": "ADHIRAJ PRATAP SINGH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADHIRAJPS1/sample-mario/issues"
+  },
+  "homepage": "https://github.com/ADHIRAJPS1/sample-mario#readme"
+}
